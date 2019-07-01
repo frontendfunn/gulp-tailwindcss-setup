@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-gulp-setup",
+  "version": "1.0.0",
+  "description": "tailwind gulp purgecss setup",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp watch"
+  },
+  "author": "FrontEndFunn",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-purgecss": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss-import": "^12.0.1",
+    "random-port": "^0.1.0",
+    "tailwindcss": "^1.0.4"
+  }
+}
