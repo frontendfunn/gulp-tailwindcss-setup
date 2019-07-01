@@ -57,10 +57,6 @@ main {
  * Remove the gray background on active links in IE 10.
  */
 
-a {
-  background-color: transparent;
-}
-
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -294,11 +290,6 @@ html {
  * Removes the default spacing and border for appropriate elements.
  */
 
-
-p {
-  margin: 0;
-}
-
 button {
   background: transparent;
   padding: 0;
@@ -378,11 +369,6 @@ button,
  * opt-out.
  */
 
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
 /**
  * Reset form element properties that are easy to forget to
  * style explicitly so you don't inadvertently introduce
@@ -425,67 +411,3 @@ canvas {
  *
  * https://github.com/mozdevs/cssremedy/issues/14
  */
-
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-.flex {
-  display: flex;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.mr-auto {
-  margin-right: auto;
-}
-
-.ml-auto {
-  margin-left: auto;
-}
-
-.max-w-full {
-  max-width: 100%;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.fixed {
-  position: fixed;
-}
-
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
